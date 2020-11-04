@@ -9,8 +9,8 @@ while row_index < src.count do
   while element_index < src[row_index].count do
  
    
-if src[row_index][element_index].length > lowest_element.length
-      lowest_element.length = src[row_index][element_index]
+if src[row_index][element_index].length > lowest_element
+      lowest_element = src[row_index][element_index]
     end
     element_index += 1
   end
