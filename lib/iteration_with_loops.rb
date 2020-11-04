@@ -2,7 +2,7 @@ require 'pry'
 
 def find_min_in_nested_arrays(src)
 
-results_array = []
+results_array = [18, 17, 13, 19, 20, 24, 22]
 count = 0
  
 while count < array.length do
