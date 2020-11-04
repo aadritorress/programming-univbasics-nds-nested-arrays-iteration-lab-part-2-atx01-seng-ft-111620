@@ -6,7 +6,7 @@ results_array = []
 count = 0
  
 while count < array.length do
-  results_array << array[count] xxxx
+  results_array << array[count]
   count += 1
 end
  
