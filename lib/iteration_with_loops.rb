@@ -1,5 +1,4 @@
 require 'pry'
-
 def find_min_in_nested_arrays(src)
  
 results_array = []
@@ -9,7 +8,7 @@ while row_index < src.count do
   lowest_element = 
   while element_index < src[row_index].count do
  
-    
+    binding.pry
 if src[row_index][element_index].length > lowest_element.length
       lowest_element.length = src[row_index][element_index]
     end
